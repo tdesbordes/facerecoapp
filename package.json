@@ -1,0 +1,31 @@
+{
+  "name": "facerecognitionbrain",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://tdesbordes.github.io/facerecoapp",
+  "dependencies": {
+    "clarifai": "^2.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-particles-js": "^2.1.1",
+    "react-scripts": "1.1.1",
+    "react-tilt": "^0.1.4",
+    "tachyons": "^4.9.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "gh-pages": "^1.1.0"
+  }
+}
